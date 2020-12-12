@@ -1,0 +1,82 @@
+@import '../font.scss';
+
+.noInput {
+    font-family: Lobster;
+    text-align: center;
+    min-height: 75vh;
+    
+    
+    .nSearchIcon {
+        font-size: 400px;
+        position: relative;
+        top: 5px;
+        color: rgb(117, 117, 117);
+        opacity: 0.1;
+    }
+
+    h3 {
+        font-size: 30px;
+        position: relative;
+        color: rgb(117, 117, 117);
+        top: -1em;
+        left: 1em;
+        opacity: 0.2;
+     
+    }
+
+}
+
+.mainCard {
+    top: 2em;
+    position: relative;
+    font-family: Lobster;
+    min-height: 70vh;
+    width: 100%;
+    background-color: rgba(87, 82, 82, 0.3);
+    color: rgb(161, 161, 161);
+    padding-bottom: 4em;
+    margin-bottom: 12em;
+
+    .resultCard {
+        width: 90%;
+        margin-left: 1em;
+        margin-top: 3em;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+
+
+        img {
+            width: 11em;
+            height: 15em;
+            padding: .5em;
+            border-radius: 15px;
+        }
+
+        .resultDescription {
+            position: relative;
+            margin-left: 1em;
+            top: 1em;
+
+            .summary {
+
+                line-height: 2em;
+                height: 7em;
+                width: 70%;
+                overflow: hidden;
+
+            }
+
+            hr {
+                display: inline-block;
+                position: relative;
+                top: .5em;
+                width: 60%;
+                background-color: rgb(189, 189, 189);
+            }
+
+        }
+    }
+
+}

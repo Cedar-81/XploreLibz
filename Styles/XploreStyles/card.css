@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Lobster;
+  src: url("./../../assets/Lobster/Lobster-Regular.ttf");
+}
+
+#card {
+  font-family: Lobster;
+}
+
+.cards {
+  font-family: Lobster;
+  color: #474b83;
+  position: relative;
+  width: 11em;
+  height: 18em;
+  margin: 2em;
+  opacity: 0.9;
+  background-color: black;
+  text-align: left;
+}
+
+.cards .img {
+  height: 10em;
+}
+/*# sourceMappingURL=card.css.map */

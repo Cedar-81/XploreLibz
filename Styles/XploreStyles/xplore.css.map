@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,MAAM;CAErB",
+    "sources": [
+        "xplore.scss"
+    ],
+    "names": [],
+    "file": "xplore.css"
+}

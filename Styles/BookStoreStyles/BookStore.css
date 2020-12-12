@@ -1,0 +1,8 @@
+.bookStore {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  z-index: 1;
+}
+/*# sourceMappingURL=BookStore.css.map */

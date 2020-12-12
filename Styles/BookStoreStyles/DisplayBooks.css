@@ -1,0 +1,65 @@
+@font-face {
+  font-family: DancingScript;
+  src: url("./../../assets/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("./../../assets/Lobster/Lobster-Regular.ttf");
+}
+
+.Cards {
+  width: 90%;
+  background-color: #1a1818;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 3em 2em;
+  position: relative;
+  top: 7em;
+  margin: 0 auto;
+  margin-bottom: 10em;
+  margin-top: 2em;
+  font-family: Lobster;
+  color: #474b83;
+  border-radius: 20px;
+}
+
+.Cards .books {
+  position: relative;
+  top: 2em;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.notFound {
+  font-family: Lobster;
+  text-align: center;
+  min-height: 75vh;
+  position: relative;
+  top: 9em;
+}
+
+.notFound .notFoundIcon {
+  font-size: 400px;
+  position: relative;
+  top: 5px;
+  color: #9e9c9c;
+  opacity: 0.1;
+}
+
+.notFound h3 {
+  font-size: 30px;
+  position: relative;
+  color: #757575;
+  left: 1em;
+  opacity: 0.2;
+}
+/*# sourceMappingURL=DisplayBooks.css.map */

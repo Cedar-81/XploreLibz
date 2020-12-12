@@ -1,0 +1,57 @@
+@import '../font.scss';
+
+.searchBar {
+    border: 2px solid rgb(179, 174, 174);
+    width: 45%;
+    height: 3.5em;
+    margin: 0 auto;
+    top: 5em;
+    position: relative;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: rgb(75, 75, 75);
+
+    .input {
+        position: relative;
+        width: 85%;
+        background-color: inherit;
+        margin: .7em;
+        color: white;
+    }
+
+    .searchIcon {
+        font-size: 50px;
+        margin: .1em;
+    }
+
+    .cancelIcon {
+        position: absolute;
+        left: 90%;
+        font-size: 28px;
+        margin: .1em; 
+        top: .3em;
+        z-index: 3;
+       
+    }
+
+    .mainResultCard {
+        max-height: 20em;
+        height: fit-content;
+        background-color: black;
+        color: rgb(161, 161, 161);
+        font-family: Lobster;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 2;
+
+
+        .resultCard {
+            height: fit-content;
+            margin: .5em;
+            background-color: rgba(148, 146, 146, 0.3);
+            padding-top: .5em;
+            padding-left: .5em;
+        }
+    }
+}

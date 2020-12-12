@@ -1,0 +1,88 @@
+@font-face {
+  font-family: DancingScript;
+  src: url("./../../assets/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("./../../assets/Lobster/Lobster-Regular.ttf");
+}
+
+.noInput {
+  font-family: Lobster;
+  text-align: center;
+  min-height: 75vh;
+}
+
+.noInput .nSearchIcon {
+  font-size: 400px;
+  position: relative;
+  top: 5px;
+  color: #757575;
+  opacity: 0.1;
+}
+
+.noInput h3 {
+  font-size: 30px;
+  position: relative;
+  color: #757575;
+  top: -1em;
+  left: 1em;
+  opacity: 0.2;
+}
+
+.mainCard {
+  top: 2em;
+  position: relative;
+  font-family: Lobster;
+  min-height: 70vh;
+  width: 100%;
+  background-color: rgba(87, 82, 82, 0.3);
+  color: #a1a1a1;
+  padding-bottom: 4em;
+  margin-bottom: 12em;
+}
+
+.mainCard .resultCard {
+  width: 90%;
+  margin-left: 1em;
+  margin-top: 3em;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 20px;
+}
+
+.mainCard .resultCard img {
+  width: 11em;
+  height: 15em;
+  padding: .5em;
+  border-radius: 15px;
+}
+
+.mainCard .resultCard .resultDescription {
+  position: relative;
+  margin-left: 1em;
+  top: 1em;
+}
+
+.mainCard .resultCard .resultDescription .summary {
+  line-height: 2em;
+  height: 7em;
+  width: 70%;
+  overflow: hidden;
+}
+
+.mainCard .resultCard .resultDescription hr {
+  display: inline-block;
+  position: relative;
+  top: .5em;
+  width: 60%;
+  background-color: #bdbdbd;
+}
+/*# sourceMappingURL=SearchResult.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAEI,SAFK,CAEL,GAAG,CAAC;EACA,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "xbanner.scss"
+    ],
+    "names": [],
+    "file": "xbanner.css"
+}

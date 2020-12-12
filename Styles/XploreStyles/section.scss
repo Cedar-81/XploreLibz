@@ -1,0 +1,45 @@
+@import '../font.scss';
+
+
+.section {
+
+    position: relative;
+
+    .sectionHeading {
+        position: relative;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: DancingScript;
+        color: #0f1456;
+        left: 2em;
+        margin-top: 2em;
+
+        hr {
+            background-color: white;
+            width: 60%;
+            display: inline-block;
+        }
+    }
+
+    .sectionBooks {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3em;
+        background-color: rgb(26, 24, 24);
+        border-radius: 20px;
+
+        .viewall {
+            width: 100%;
+            text-align: center;
+        }
+
+        h3 {
+            position: relative;
+            color: #343549;
+            font-family: DancingScript;
+            font-size: 30px;
+
+        }
+    }
+
+}

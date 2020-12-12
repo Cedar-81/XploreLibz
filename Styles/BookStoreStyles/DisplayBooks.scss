@@ -1,0 +1,56 @@
+@import '../font.scss';
+
+.Cards {
+    width: 90%;
+    background-color: rgb(26, 24, 24);
+    height: max-content;
+    padding: 3em 2em;
+    position: relative;
+    top: 7em;
+    margin: 0 auto;
+    margin-bottom: 10em;
+    margin-top: 2em;
+    font-family: Lobster;
+    color: #474b83;
+    border-radius: 20px;
+
+
+    .books {
+        position: relative;
+        top: 2em;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+
+
+}
+
+.notFound {
+
+    font-family: Lobster;
+    text-align: center;
+    min-height: 75vh;
+    position: relative;
+    top: 9em;
+
+
+    .notFoundIcon {
+        font-size: 400px;
+        position: relative;
+        top: 5px;
+        color: rgb(158, 156, 156);
+        opacity: 0.1;
+    }
+
+    h3 {
+        font-size: 30px;
+        position: relative;
+        color: rgb(117, 117, 117);
+        left: 1em;
+        opacity: 0.2;
+    
+    }
+}

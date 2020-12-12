@@ -1,0 +1,53 @@
+@font-face {
+  font-family: DancingScript;
+  src: url("./../../assets/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("./../../assets/Lobster/Lobster-Regular.ttf");
+}
+
+.section {
+  position: relative;
+}
+
+.section .sectionHeading {
+  position: relative;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: DancingScript;
+  color: #0f1456;
+  left: 2em;
+  margin-top: 2em;
+}
+
+.section .sectionHeading hr {
+  background-color: white;
+  width: 60%;
+  display: inline-block;
+}
+
+.section .sectionBooks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3em;
+  background-color: #1a1818;
+  border-radius: 20px;
+}
+
+.section .sectionBooks .viewall {
+  width: 100%;
+  text-align: center;
+}
+
+.section .sectionBooks h3 {
+  position: relative;
+  color: #343549;
+  font-family: DancingScript;
+  font-size: 30px;
+}
+/*# sourceMappingURL=section.css.map */

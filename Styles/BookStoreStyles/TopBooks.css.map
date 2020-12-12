@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EAAC,WAAW,EAAE,aAAa;EAAE,GAAG,EAAE,wEAAwE;;;AACpH,UAAU;EAAC,WAAW,EAAE,OAAO;EAAE,GAAG,EAAE,iDAAiD;;;ADCvF,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,OAAO;CACvB",
+    "sources": [
+        "TopBooks.scss",
+        "../font.scss"
+    ],
+    "names": [],
+    "file": "TopBooks.css"
+}

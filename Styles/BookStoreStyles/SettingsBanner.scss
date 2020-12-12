@@ -1,0 +1,36 @@
+.dialog {
+    position: fixed;
+    height: 70vh;
+    max-width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    top: 3em;
+
+
+    &::before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        content: ' ';
+        background-image: url('./../../assets/img7.jpg');
+        background-size: cover;
+        object-fit: contain;
+        opacity: 0.3;
+        width: 100vw;
+        background-position: top center;
+        background-repeat: no-repeat;
+        filter: blur(3px);
+
+    }
+
+    .cardContent {
+            height: 70vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.4);
+            box-sizing: border-box;
+            border: 2px solid midnightblue;
+        }
+
+}

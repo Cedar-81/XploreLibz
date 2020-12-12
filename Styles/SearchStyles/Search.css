@@ -1,0 +1,16 @@
+.searchComponent {
+  background-color: #252424;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.searchComponent .search {
+  position: relative;
+}
+
+.searchComponent .result {
+  position: relative;
+  top: 6em;
+}
+/*# sourceMappingURL=Search.css.map */
